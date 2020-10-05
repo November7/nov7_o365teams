@@ -130,6 +130,7 @@ class theme_nov7_o365teams_core_course_renderer extends core_course_renderer {
             // Module can put text after the link (e.g. forum unread).
             $output .= $mod->afterlink;
 
+
             // Closing the tag which contains everything but edit icons. Content part of the module should not be part of this.
             $output .= html_writer::end_tag('div');
         }

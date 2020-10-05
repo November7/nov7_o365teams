@@ -729,6 +729,17 @@ ul {
     padding-right: 30px;
 }
 
+/* .contentafterlink::before{
+    content: "Opis:";
+} */
+/* .contentafterlink .hideOnTeams {
+    display: none;
+} */
+
+.contentafterlink {
+    display: none;
+}
+
 .submitbtns_with_return {
     text-align: center !important;
 }

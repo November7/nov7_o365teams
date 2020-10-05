@@ -79,7 +79,7 @@
                                {{{ output.course_content_header }}}
                                <span class="back">
                                <div id="course_page_title">                                  
-                                  <div class="page_title"><a href="{{{course_page}}}">{{{ output.page_title }}}</a></div>
+                                  <div class="page_title"><a href="{{{course_page}}}">Powrót</a></div>
                                </div>
                                </span>
                             {{/is_course_overview}}
@@ -87,13 +87,13 @@
                                {{{ output.course_content_header }}}
                                <span class="no_back">
                                <div id="course_page_title">
-                                  <div class="page_title"><a href="{{{ course_page }}}">{{{ output.page_title }}}</a></div>
+                                  <div class="page_title">{{{ output.page_title }}}</div>
                                </div>
                                </span>
                             {{/is_course_overview}}
                             {{{ output.main_content }}}
                             {{!{ output.activity_navigation } }}
-                            {{{ output.course_content_footer }}}
+                            {{!{ output.course_content_footer } }}
                         </div>
                     </div>
                 </section>
