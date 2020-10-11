@@ -45,7 +45,7 @@ form .felement input {
     background-color: #ffffff;
     padding: 10px;
     padding-left: 20px;
-    margin-top: 2px;
+    /* margin-top: 2px; */
 }
 .theme_dark.format-topics .section .activity {
     background-color: #2d2c2c;
@@ -729,15 +729,15 @@ ul {
     padding-right: 30px;
 }
 
-/* .contentafterlink::before{
+.contentafterlink::before{
     content: "Opis:";
-} */
+}
 /* .contentafterlink .hideOnTeams {
     display: none;
 } */
 
 .contentafterlink {
-    display: none;
+    /* display: none; */
 }
 
 .submitbtns_with_return {
