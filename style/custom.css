@@ -730,7 +730,7 @@ ul {
 }
 
 .contentafterlink::before{
-    content: "Opis:";
+    /* content: "Opis:"; */
 }
 /* .contentafterlink .hideOnTeams {
     display: none;
